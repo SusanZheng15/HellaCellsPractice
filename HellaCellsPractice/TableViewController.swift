@@ -114,6 +114,7 @@ class TableViewController: UITableViewController
                 {
                     print("tabbed \(numberString)")
                     destVC.text = numberString
+                    //destVC.numberLabel.text = numberString  //Cannot change the label in tableview, must do it indirectly
                 }
                 
             }
